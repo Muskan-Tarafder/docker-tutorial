@@ -32,8 +32,8 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
-CSRF_TRUSTED_ORIGINS = [ 'https://*' ]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'app-production-5e9b.up.railway.app']
+CSRF_TRUSTED_ORIGINS = [ 'https://app-production-5e9b.up.railway.app' ]
 
 # Application definition
 
