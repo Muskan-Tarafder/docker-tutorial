@@ -27,6 +27,7 @@ urlpatterns = [
     path('', home_view, name="home"),
     path('profile/', include('a_users.urls')),
     path('@<username>/', profile_view, name="profile"),
+    path('celery/', count_to_10, name='count'),
 ]
 
 # Only used in development
